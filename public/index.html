@@ -2,26 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de CPF</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="div_principal">
-        <h1>CPFs Brasileiros <img class="img_bandeira" src="bandeiradoBrasilloko.png" alt="Bandeira Do Brasil"></h1>
+  <div class="container">
+    <h1>Validador de CPF <img class="img-bandeira" src="bandeiradoBrasilloko.png" alt="Bandeira do Brasil"></h1>
 
-        <Label for="pergunta1" id="label_pergunta">Coloque o seu CPF no campo!</Label>
-        <input type="text" name="resposta_cpf" id="resposta_cpf">
-        <br>
-        <br>
-        <button id="validar_btn" onclick="verificar()">Validar CPF</button> 
-    </div>
+    <label for="cpf" id="label_pergunta">Digite seu CPF:</label>
+    <input type="text" id="resposta_cpf" name="resposta_cpf">
 
+    <button onclick="verificar()">Validar</button>
+  </div>
 
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
