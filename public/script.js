@@ -44,16 +44,4 @@ function verificar() {
     }
 }
 
-function verificar_humano() {
-    const sou_humano = document.getElementById('sou_humano')
-    const mensagem = document.getElementById('mensagem')
 
-    let verdade = true
-    let falso = false
-
-    if (sou_humano.checked && verdade === true) {
-        mensagem.textContent = "Você confirmou que é humano!"
-    } else {
-        mensagem.textContent = "Por favor, marque a caixa para confirmar!"
-    }
-}
